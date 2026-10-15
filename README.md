@@ -1,15 +1,15 @@
 # golden-signals
 
-Serve a local dashboard for latency percentiles, request traffic, 5xx errors, and saturation from JSON-lines event data.
+View latency percentiles, request rate, errors, and saturation in a local dashboard built from JSON Lines events.
 
 ## Install
 
-Requires Go 1.23 or newer. Build with `go install github.com/ulrichheringer/golden-signals@latest`.
+With Go 1.23 or newer, install it with `go install github.com/ulrichheringer/golden-signals@latest`.
 
 ## Use
 
-Provide `timestamp`, `latency_ms`, `status`, and optional `cpu_pct`, `memory_bytes`, and `queue_depth` fields. Run `golden-signals -input events.jsonl`.
+Each event needs `timestamp`, `latency_ms`, and `status`; `cpu_pct`, `memory_bytes`, and `queue_depth` are optional. Start the dashboard with `golden-signals -input events.jsonl`.
 
 ## Example
 
-Run `go run . -input examples/simulated-events.jsonl` and open the printed local URL. The example data is simulated.
+The example data is simulated. Run `go run . -input examples/simulated-events.jsonl`, then open the URL printed in the terminal.
