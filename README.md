@@ -1,6 +1,6 @@
-# Golden Signals
+# Golden Signals — Local Service Health Dashboard
 
-[![Go](https://img.shields.io/badge/Go-1.23%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/) [![MIT License](https://img.shields.io/badge/License-MIT-007ec6.svg)](LICENSE)
+[![Go](https://img.shields.io/badge/Go-1.23%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/) [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 View latency percentiles, request rate, errors, and saturation in a local dashboard built from JSON Lines events.
 
