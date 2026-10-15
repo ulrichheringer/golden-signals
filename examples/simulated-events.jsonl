@@ -1,0 +1,3 @@
+{"timestamp":"2026-10-01T12:00:00Z","latency_ms":18,"status":200,"cpu_pct":22,"memory_bytes":124000000,"queue_depth":2}
+{"timestamp":"2026-10-01T12:00:01Z","latency_ms":44,"status":200,"cpu_pct":35,"memory_bytes":126000000,"queue_depth":4}
+{"timestamp":"2026-10-01T12:00:02Z","latency_ms":310,"status":503,"cpu_pct":78,"memory_bytes":131000000,"queue_depth":15}
